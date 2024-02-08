@@ -22,3 +22,6 @@
   color: #666;
   scale: 0.9;
 }
+.container a.active {
+  scale: 1.2;
+}
