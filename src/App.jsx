@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Mainpage from "./pages/mainpage/Mainpage";
 import Secondpage from "./pages/secondpage/Secondpage";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +11,10 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <Secondpage />
+      <Routes>
+        <Route path="/" element={<Mainpage />} />
+        <Route path="/posts" element={<Secondpage />} />
+      </Routes>
     </div>
   );
 }

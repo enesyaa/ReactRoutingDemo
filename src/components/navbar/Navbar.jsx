@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="container">
-        <a href="#">Mainpage</a>
-        <a href="#">Second</a>
+        <Link to="/">Home</Link>
+        <Link to="/posts">Posts</Link>
       </div>
     </div>
   );
