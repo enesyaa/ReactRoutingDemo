@@ -1,0 +1,24 @@
+.navbar {
+  background-color: lightblue;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.container a:hover {
+  color: #666;
+  scale: 0.9;
+}

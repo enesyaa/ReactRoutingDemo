@@ -1,0 +1,9 @@
+.content {
+  background-color: lightgoldenrodyellow;
+  width: 70%;
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
